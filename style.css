@@ -118,3 +118,65 @@ html,body{
 .elemlast{
     border-bottom: 1px solid #888;
 }
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
+     padding: 5vw 3vw;
+     gap: 50px;
+     padding-left: 40vw;
+     height: 50vw;
+     width: 100%;
+}
+.textabout{
+    width: 30rem;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+.about img{
+    width: 200px;
+}
+.textabout p{
+    margin-bottom: 30px;
+}
+.textabout a{
+    padding: 12px 22px;
+    border: 1px solid white;
+    border-radius: 100px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.footer{
+    padding-top: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 2vw ; */
+    padding-bottom: 2vw;
+    padding-left: 2vw;
+    padding-right:2vw ;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+.rightfooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5vw;
+}
+
+.minicircle{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color:white ;
+    position: absolute;
+    z-index: 9999;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) .5s;
+}
