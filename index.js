@@ -40,3 +40,28 @@ document.querySelectorAll(".elem").forEach(function (elem) {
       });
     });
   });
+
+
+
+
+  var tl=gsap.timeline()
+  tl.from(".nav",{
+    y:-150,
+    duration:1,
+    stagger:0.2,
+    opacity:0
+})
+
+tl.from(".hero .heading ",{
+  y:150,
+  duration:1,
+  stagger:0.2,
+  opacity:0
+})
+
+tl.from(".hero .chhotiheadings",{
+  y:150,
+  duration:0.2,
+  stagger:0.2,
+  opacity:0
+})
